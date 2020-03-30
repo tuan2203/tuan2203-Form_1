@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="contentForm">
+        <div class="container-fluid mt-5">
+            <div class="row">
+                <div class="col border p-5">
+
+                    <input type="text"
+                        class="form-control border-top-0 border-bottom border-left-0 border-right-0 rounded-0 counter"
+                        id="fullName" required>
+                    <label id="fullName" class="mt-2"> full Name</label>
+
+                    <input type="text"
+                        class="form-control border-top-0 border-bottom border-left-0 border-right-0 rounded-0 counter"
+                        id="empCode" required>
+                    <label id="empCode" class="mt-2">EMP Code</label>
+
+                    <input type="text"
+                        class="form-control border-top-0 border-bottom border-left-0 border-right-0 rounded-0 counter"
+                        id="salary" required>
+                    <label id="salary" class="mt-2">salary</label>
+
+                    <input type="text"
+                        class="form-control border-top-0 border-bottom border-left-0 border-right-0 rounded-0 counter"
+                        id="city" required>
+                    <label id="city" class="mt-2">City</label>
+
+                    <button class="btn btn-secondary float-right mt-3 btn-lg" id="submit">Submit</button>
+                </div>
+                <div class="col border">
+                    <table class="table table-bordered bg-secondary text-light mt-4 rounded" id="tableContent">
+                        <thead>
+                            <tr>
+                                <th scope="col">fullName</th>
+                                <th scope="col">empCode</th>
+                                <th scope="col">salary</th>
+                                <th scope="col"  colspan="2">City</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col border">
+                    <div class="d-flex mt-4" id="errorMessage">message :---</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
